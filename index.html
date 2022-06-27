@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"  initial-scale="1.0">
     <title>Document</title>
+    <link rel="icon" href="kit.jpg">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <canvas width=1000 height=400 id="escenario">
+<body background="frutasFondo.gif">
+    <img src="kit.jpg" alt="kitty vestido rosa" class="logo">
+    <h1>Juego del ahorcado de puras frutas</h1>
+    <canvas width=1000 height=600 id="escenario">
     </canvas>
-    <label for="">Ingresa una de las letras de la palabra desconocida</label>
-    <input type="text" maxlength="1" onchange="correcto(this.value)">  
+    <label>Ingresa una de las letras de la palabra desconocida</label>
+    <input type="text" maxlength="1" onchange="correcto(this.value)" id="entrada">  
     <button id="limpiar">Nuevo Juego</button>
-    <button id="">Rendirse</button>
+    <button id="rendirse">Rendirse</button>
 
     <script src="ahorcado.js"></script>
 </body>

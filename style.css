@@ -1,50 +1,78 @@
 body{
     font-family:cursive;
+
+}
+.logo{
+  width: 150px;
+  margin: 1%  2%; 
+  border-radius: 60px;
+  box-shadow: 2px 2px 15px green;   
+}
+h1{
+  text-align: center;
+  font-size: 3em;
+  background-color: orange;
+  border-radius: 5%;
+  color:white;
+
+
 }
 #escenario{
-    background-color: bisque;
+    background-color: green;
     display:block;
-    margin: auto;
+    margin: 5px auto;
     border-radius: 50px;
+    margin-bottom: 40px;
+    box-shadow: 20px 15px 10px #48529944;
 }
 button{
     margin:20px ;
-    padding:20px;
     color:white;
-    background-color: palevioletred;
+    background-color: green;
     border:none;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 2em;
     font-weight: bold;
     font-family:cursive;
     width: 150px;
     display: inline-block;
+    padding:1%;
+
 }
 button:hover {
     background-color: lightblue;
   }
   input{
-    margin:20px ;
-    padding:15px;
+    padding:40px;
     width: 20px;
     color:white;
-    background-color: palevioletred;
+    background-color: orange;
     border:none;
     border-radius: 100%;
-    font-size: 20px;
+    font-size: 2em;
     font-weight: bold;
     font-family:cursive;
     display: block;
     border:none;
-    margin:10px 500px;
+    margin-top: 10px;
+    margin-left:45%;
     text-align: center;
+
   }
 
   label{
-    margin:50px 230px;
-    font-size: 25px;
+    margin-left:20%;
+    font-size: 2em;
+    background-color: orange;
+    border-radius: 5%;
+    color:white;
+    padding:1.5%;
+    margin-bottom: 40px;
+
   }
   
   #limpiar{
       float: left;
+      margin-left: 35%;
+
   }
